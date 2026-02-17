@@ -1,0 +1,16 @@
+.navbarCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background: transparent;
+    height: 100%;
+}
+
+.navbarCont .navbarContLogo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--col0);
+    text-decoration: none;
+}

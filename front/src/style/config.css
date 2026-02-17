@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  color: #ffff;
+  background: radial-gradient(circle at 20% 20%, rgba(45, 140, 255, 0.15), transparent 45%), radial-gradient(circle at 80% 80%, rgba(31, 78, 216, 0.15), transparent 45%), linear-gradient(135deg, #071426, #0b1e3a);
+}
