@@ -1,0 +1,99 @@
+.btn0 {
+    background-color: var(--col0);
+    transition: .3s ease-in-out;
+    color: var(--col2);
+}
+
+.btn0:hover {
+    opacity: 0.8;
+}
+
+.btn1 {
+    background-color: var(--col1);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn1:hover {
+    opacity: 0.8;
+}
+
+.btn2 {
+    background-color: var(--col2);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn2:hover {
+    opacity: 0.8;
+}
+
+.btn3 {
+    background-color: var(--col3);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn3:hover {
+    opacity: 0.8;
+}
+
+.btn4 {
+    background-color: var(--col4);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn4:hover {
+    opacity: 0.8;
+}
+
+.btn5 {
+    background-color: var(--col5);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn5:hover {
+    opacity: 0.8;
+}
+
+.btn6 {
+    background-color: var(--col6);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn6:hover {
+    opacity: 0.8;
+}
+
+.btn7 {
+    background-color: var(--col7);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn7:hover {
+    opacity: 0.8;
+}
+
+.btn8 {
+    background-color: var(--col8);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn8:hover {
+    opacity: 0.8;
+}
+
+.btn9 {
+    background-color: var(--col9);
+    transition: .3s ease-in-out;
+    color: var(--col0);
+}
+
+.btn9:hover {
+    opacity: 0.8;
+}

@@ -14,3 +14,92 @@
     color: var(--col0);
     text-decoration: none;
 }
+
+.navbarCont .navbarContLogo h1 span {
+    color: var(--col1);
+}
+
+.navbarCont section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 1rem;
+}
+
+.navbarCont section ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 14px;
+    user-select: none;
+    font-size: 17px;
+}
+
+.navbarCont section ul li {
+    cursor: pointer;
+}
+
+.navbarCont section ul li:hover {
+    color: var(--col1);
+}
+
+.navbarCont svg {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .navbarCont {
+        padding: 0 10px;
+    }
+
+    .navbarCont section ul {
+        font-size: 14px;
+    }
+
+    .navbarCont section {
+        gap: 1rem;
+        padding-right: 1px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .navbarCont {
+        position: relative;
+    }
+
+    .navbarCont section {
+        position: absolute;
+        flex-direction: column;
+        transition: .6s ease-in-out;
+        top: 70px;
+        background-color: var(--col2);
+        border-radius: 8px;
+        box-shadow: 0px 0px 0px black;
+        width: 220px;
+        align-items: flex-start;
+    }
+
+    .navbarCont section button {
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    .navbarCont section ul {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .navbarCont svg {
+        display: block;
+    }
+
+    .navbarContSectClosed {
+        right: -100%;
+    }
+
+    .navbarContSectOpen {
+        right: 2%;
+    }
+
+}
