@@ -6,8 +6,10 @@ const Features = () => {
 
     return (
         <div className='features'>
+            <h2>Features</h2>
+
             <section className='featuresSect'>
-                {features.slice(6).map((doc, ind) => (
+                {features.slice(0, 6).map((doc, ind) => (
                     <div className='featuresDiv' key={ind}>
                         <Icons type={doc.icon} color='white' />
                         <h5>{doc.title}</h5>

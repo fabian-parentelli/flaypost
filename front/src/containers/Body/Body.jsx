@@ -1,6 +1,7 @@
 import './body.css';
-import Features from './Features/Features.jsx';
 import Header from './Header/Header.jsx';
+import Features from './Features/Features.jsx';
+import Technology from './Technology/Technology.jsx';
 
 const Body = () => {
 
@@ -8,6 +9,7 @@ const Body = () => {
         <div className="body">
             <Header />
             <Features />
+            <Technology />
         </div>
     );
 };
