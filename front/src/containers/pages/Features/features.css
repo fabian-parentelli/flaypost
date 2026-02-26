@@ -32,14 +32,20 @@
 .features .featuresSect .featuresDiv {
     max-width: 400px;
     width: 90%;
-    box-shadow: 0px 0px 5px #0f0f0f;
+    border: 1px solid rgba(255,255,255,0.1);
     padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 12px;
     border-radius: 6px;
     height: 180px;
-    background-color: var(--col2);
+    background: rgba(255,255,255,0.05);
+    transition: 0.3s;
+}
+
+.features .featuresSect .featuresDiv:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .features .featuresSect .featuresDiv h5 {

@@ -1,0 +1,81 @@
+.codeCont {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 4px;
+}
+
+.codeCont .codeContTop {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 1rem;
+    border-radius: 12px 12px 0 0;
+}
+
+.codeCont .codeContTop p {
+    color: var(--col5);
+}
+
+.codeCont .codeContBottom {
+    width: 100%;
+    min-height: 55px;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 0 0 10px 10px;
+    padding: 1rem;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--col5) rgba(0, 0, 0, 0.2);
+}
+
+.codeCont .codeContBottom pre {
+    line-height: 1.6;
+}
+
+.codeCont .codeContBottom pre code,
+.codeCont .codeContBottom pre code * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.codeCont .codeContBottom pre code .cod-green {
+    color: #4D7A38;
+}
+
+.codeCont .codeContBottom pre code .cod-pink {
+    color: #f568b5;
+}
+
+.codeCont .codeContBottom pre code .cod-skyblue {
+    color: #7ee2ef;
+}
+
+.codeCont .codeContBottom pre code .cod-skyyellow {
+    color: #ffffa6;
+}
+
+.codeCont .codeContBottom pre code .cod-blue {
+    color: #118dd6;
+}
+
+.codeCont .codeContBottom pre code .cod-red {
+    color: #ea9247;
+}
+
+.codeCont .codeContBottom pre code .cod-yellow {
+    color: yellow;
+}
+
+.codeCont .codeContBottom pre code .cod-midblue {
+    color: #30A1C0;
+}
+
+.codeCont .codeContBottom pre code .cod-skygreen {
+    color: #01e98c;
+}
+
+.codeCont .codeContBottom pre code .cod-gray {
+    color: gray;
+}
