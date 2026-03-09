@@ -10,7 +10,7 @@ const Footer = () => {
 
             <Link to={'/'} className='footerA'>
                 <img src="/logo.png" width={'30px'} alt="carrot" />
-                <p>FlyPost</p>
+                <p>Fly<span className='col1'>Post</span></p>
             </Link>
 
             <section className='footerTop'>
@@ -26,7 +26,7 @@ const Footer = () => {
                     <Link to={'/'}>
                         <img src='/logo.png' width={'50px'} alt="logo" />
                     </Link>
-                    <p className='footerBottomCata'>FlyPost</p>
+                    <p className='footerBottomCata'><span className='col0'>Fly</span>Post</p>
                     <FooterSocial />
                 </div>
 

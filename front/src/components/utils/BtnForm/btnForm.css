@@ -1,0 +1,26 @@
+.btnForm {
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--col8);
+    color: var(--col0);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: .6rem;
+    transition: .3s ease-in-out;
+    min-width: 200px;
+    min-height: 50px;
+}
+
+.btnForm:hover {
+    opacity: 0.9;
+}
+
+.btnFormSect button {
+    margin-top: 10px;
+}
+
+.btnFormSect h5 {
+    font-size: 1.8rem;
+}

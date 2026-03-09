@@ -4,6 +4,7 @@ import Navbar from "../containers/layout/Navbar/Navbar.jsx";
 import Body from "../containers/Body/Body.jsx";
 import Features from "../containers/pages/Features/Features.jsx";
 import Footer from "../containers/layout/Footer/Footer.jsx";
+import RoutesSession from "./RoutesSession.jsx";
 
 const WrapRoutes = () => {
 
@@ -14,6 +15,8 @@ const WrapRoutes = () => {
                 <Navbar />
 
                 <Routes>
+                    {RoutesSession()}
+
                     <Route path="/" element={<Body />} />
                     <Route path="/features" element={<Features />} />
                 </Routes>

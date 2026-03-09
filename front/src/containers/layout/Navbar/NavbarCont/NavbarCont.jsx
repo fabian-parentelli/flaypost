@@ -32,7 +32,7 @@ const NavbarCont = () => {
                     <li onClick={()=> handleClick('documentation')}>Documentation</li>
                 </ul>
 
-                <button className='btn btn6' onClick={()=> handleClick('user/login')}>Sign up / Login</button>
+                <button className='btn btn6' onClick={()=> handleClick('session/login')}>Sign up / Login</button>
             </section>
 
             <Icons type='menu' color='#ffff' onClick={() => setOpen(!open)} />

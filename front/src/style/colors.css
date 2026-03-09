@@ -11,6 +11,14 @@
     --col0: #ffff;
 }
 
+.col0 {
+    color: var(--col0);
+}
+
+.col1 {
+    color: var(--col1);
+}
+
 .pcol6 {
     color: var(--col6);
     font-size: 12px;

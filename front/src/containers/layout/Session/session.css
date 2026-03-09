@@ -1,0 +1,77 @@
+.session {
+    margin-top: 70px;
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-left: 6rem;
+}
+
+.session .sessionSect {
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.session .sessionSect img {
+    width: 80px;
+}
+
+.session .sessionSect h2 {
+    font-size: 2rem;
+}
+
+.session .sessionSect h2 span {
+    color: var(--col1);
+}
+
+.session .sessionSect p {
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 19px;
+}
+
+/* Login */
+
+.session .sessionInputs {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(58, 58, 133, 0.342);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.session .sessionInputs h3 {
+    font-size: 1.6rem;
+}
+
+.session .sessionInputs .sessionContainerInput {
+    height: 39px;
+}
+
+.session .sessionInputs button {
+    margin-top: 12px;
+}
+
+@media (max-width: 1024px) {
+    
+    .session .sessionSect {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .session {
+        margin-left: 0;
+    }
+
+    .session .sessionSect {
+        display: none;
+    }    
+}

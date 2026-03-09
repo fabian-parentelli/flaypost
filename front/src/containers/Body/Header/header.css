@@ -20,25 +20,6 @@
     margin: 1.2rem 0;
 }
 
-.header .headerBtn {
-    padding: 1rem;
-    border: none;
-    border-radius: 4px;
-    background-color: var(--col8);
-    color: var(--col0);
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 17px;
-    margin-top: .6rem;
-    transition: .3s ease-in-out;
-    min-width: 200px;
-    min-height: 50px;
-}
-
-.header .headerBtn:hover {
-    opacity: 0.9;
-}
-
 .header .headerP {
     margin-top: 1rem;
     color: gray;

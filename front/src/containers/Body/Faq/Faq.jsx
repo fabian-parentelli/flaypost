@@ -1,5 +1,6 @@
 import './faq.css';
 import { Accordion } from 'fara-comp-react';
+import BtnForm from '@/components/utils/BtnForm/BtnForm.jsx';
 
 const Faq = () => {
 
@@ -22,8 +23,11 @@ const Faq = () => {
                     </Accordion>
                 ))}
             </section>
-
-            <button className='faqBtn'>Create your Form</button>
+            
+            <br />
+            <br />
+            
+            <BtnForm />
         </div>
     );
 };

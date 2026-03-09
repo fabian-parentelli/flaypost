@@ -1,5 +1,6 @@
 import './stepsStart.css';
 import { Icons } from 'fara-comp-react';
+import BtnForm from '@/components/utils/BtnForm/BtnForm.jsx';
 
 const steps = [
     { number: 'pencil', title: 'Sign Up', desc: 'Create your account in seconds' },
@@ -22,7 +23,7 @@ const StepsStart = () => {
                 ))}
             </div>
 
-            <button className='stepsStartBtn'>Create your Form</button>
+            <BtnForm />
         </section>
     );
 };
